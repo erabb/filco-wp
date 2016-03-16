@@ -59,6 +59,7 @@
 .navbar{
 	text-transform: uppercase;
 	font-size: 14px;
+	margin-bottom: 0!important;
 }
 
 .navbar.navbar-fixed-top{
@@ -85,6 +86,23 @@
 	//background: rgba(231,76,60,.4);
 }
 
+.jumbotron{
+	background: url('../images/header-background2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% center;
+	color: #fff;
+	text-align: center;
+}
+
+#jumbotron h1{
+	font-size: 45px;
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
 @media (max-width: 768px){
 
 	.navbar.navbar-fixed-top .navbar-collapse li:hover{
@@ -92,10 +110,36 @@
 	}
 
 	#navbar2{
-	background: rgba(202, 41, 24, 0.9);
-}
+		background: rgba(202, 41, 24, 0.9);
+	}
+
+	.jumbotron{
+		background: url('../images/header-background2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 20% center;
+		color: #fff;
+		text-align: center;
+	}
+
+	#jumbotron h1{
+		font-size: 30px;
+		text-align: center;
+		width: 75%;
+		margin: 0 auto;
+		text-transform: uppercase;
+	}
 
 }
+
+@media (max-width: 536px){
+
+	#jumbotron p{
+		display: none;
+	}
+
+}
+
 
 nav.navbar-fixed-top{
 	top: -60px;
