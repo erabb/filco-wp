@@ -1,3 +1,14 @@
+/*
+Theme Name: Filco
+Theme URI: www.ethioparabb.com
+Author: Ethiopia Rabb
+Author URI: http://www.ethiopiarabb.com;
+Description: Fildo wordpress theme
+Version: 3.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
 section{
 	padding-top: 50px;
 	padding-bottom: 80px;
@@ -14,12 +25,12 @@ section{
 
 @font-face {
 	font-family:'Montserrat';
-	src:url('../fonts/montserrat/Montserrat-Regular.otf');
+	src:url('fonts/montserrat/Montserrat-Regular.otf');
 }
 
 @font-face {
 	font-family:'Montserrat-light';
-	src:url('../fonts/montserrat/Montserrat-Light.otf');
+	src:url('fonts/montserrat/Montserrat-Light.otf');
 }
 
 
@@ -99,7 +110,7 @@ section{
 }
 
 .jumbotron{
-	background: url('../images/header-background2.jpg');
+	background: url('images/header-background2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 20% center;
@@ -126,7 +137,7 @@ section{
 	}
 
 	.jumbotron{
-		background: url('../images/header-background2.jpg');
+		background: url('images/header-background2.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 20% center;
@@ -291,7 +302,7 @@ nav.navbar-fixed-top{
 
 .service .service-image img{
 	width: 100%;
-	transition: all 600ms ease-in-out;
+	transition: all 1000ms;
 }
 
 .service{
@@ -328,6 +339,7 @@ nav.navbar-fixed-top{
     -ms-transform: scale(1.1, 1.1);
     -o-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
+    transition: all 2500ms;
 }
 
 .service-image{
@@ -382,4 +394,25 @@ footer{
 		vertical-align: top;
 		text-align: center;
 	}
+}
+
+/************************** bootstrapstyling ********************/
+.btn-primary {
+    color: white;
+    background-color:  rgb(3, 142, 149);
+    border-color:  rgb(3, 142, 149, .7);
+}
+
+.btn-primary:hover{
+	background: #2d2d2d;
+}
+
+.btn-primary-reverse {
+    color: #e74c3c;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.form-details{
+	margin-bottom: 20px;
 }
